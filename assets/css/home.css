@@ -1,0 +1,43 @@
+#home{
+    width: 100vw;
+    background-image: url(../images/background5.jpg);
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    color: #fff;
+}
+#home img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.home-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+.home-content h1{
+    font-size: 50px;
+}
+.home-content span{
+    color: var(--purple-lighter-color-hover);
+}
+@media (max-width: 1100px){
+    #home{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width: 720px){
+    .home-content{
+        width: 100%;
+    }
+} 
+@media (max-width: 450px){
+    .home-content h1{
+        font-size: 35px;
+    }
+} 

@@ -1,0 +1,21 @@
+.learn-things{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.learn-thing{
+    width: 350px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 40px;
+    border-radius: 0 20px;
+}
+.learn-thing h3{
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--purple-color)
+}
